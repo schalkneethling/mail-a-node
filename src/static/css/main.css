@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font: 16px/1.5 sans-serif;
+}
+
+/* button styles */
+.button,
+.button:link,
+.button:visited {
+  display: inline-block;
+  margin: 10px;
+  padding: 1rem;
+  border: 3px solid #333;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+  background-color: #03a9f4;
+}
+
+.button-wide {
+  width: auto;
+  min-width: 250px;
+  font-size: 1.5rem;
+}
+
+/* Forms */
+form {
+  width: 640px;
+}
+
+.field-group {
+  margin: 20px;
+}
+
+label {
+  display: inline-block;
+  background-color: #eee;
+  padding: 10px 5px 10px 20px;
+  width: 200px;
+  text-align: right;
+  vertical-align: top;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: inline-block;
+  padding: 11px 0 11px 20px;
+  width: 400px;
+}
+
+textarea {
+  border: 1px solid #bfbfbf;
+}
+
+input[type="submit"] {
+  float: right;
+  margin-right: 18px;
+  text-align: right;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:active {
+  background-color: #03a9f4;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "mail-a-node",
+  "version": "1.0.0",
+  "description": "A simple example of sending mail with nodemailer",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "nodemailer",
+    "javascript",
+    "examples"
+  ],
+  "author": "Schalk Neethling",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "5.10.0",
+    "nodemon": "1.18.9",
+    "prettier": "1.15.3"
+  },
+  "dependencies": {
+    "dotenv": "6.2.0",
+    "express": "4.16.4",
+    "nodemailer": "4.7.0",
+    "npm": "6.5.0",
+    "pug": "2.0.3"
+  }
+}

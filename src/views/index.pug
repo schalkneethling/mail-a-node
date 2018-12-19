@@ -1,0 +1,21 @@
+doctype html
+html
+    include includes/head.pug
+    body
+        header
+        h1 mail-a-node
+
+        form(name="mailer" action="/send-mail" method="post")
+            div(class="field-group")
+                label(for="to") To:
+                input(type="email" name="to" id="to")
+
+            div(class="field-group")
+                label(for="from") From:
+                input(type="email" name="from" id="from")
+
+            div(class="field-group")
+                label(for="message") Message
+                textarea(name="message" id="message" cols="30" rows="10")
+
+            input(type="submit" class="button button-wide" value="Send mail")
