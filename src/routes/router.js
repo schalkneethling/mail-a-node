@@ -2,18 +2,20 @@ const express = require("express");
 const nodemailer = require("nodemailer");
 const router = express.Router();
 
+require("dotenv").config();
+
 const mailOptions = {
-  from: "hvzu3cgjcd6bengx@ethereal.email",
-  replyTo: "hvzu3cgjcd6bengx@ethereal.email",
-  subject: "Mailed A Node"
+  from: process.env.MAIL_FROM,
+  replyTo: process.env.MAIL_REPLYTO,
+  subject: process.env.SUBJECT
 };
 
 const smtpConfig = {
-  host: "smtp.mailtrap.io",
-  port: 2525,
+  host: process.env.SMTP_SERVER,
+  port: process.env.SMTP_PORT,
   auth: {
-    user: "380fa3b9f0a1c3",
-    pass: "90f783fad811ce"
+    user: process.env.SMTP_USER,
+    pass: process.env.SMTP_PASS
   }
 };
 

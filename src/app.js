@@ -14,4 +14,4 @@ app.use(express.urlencoded({ extended: false }));
 app.use("/static", express.static(path.join(__dirname, "static")));
 app.use("/", routes);
 
-app.listen(port, () => console.log(`main-a-node listening on port ${port}!`));
+app.listen(port, () => console.log(`mail-a-node listening on port ${port}!`));
