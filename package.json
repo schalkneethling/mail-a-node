@@ -16,7 +16,7 @@
   "author": "Schalk Neethling",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "5.10.0",
+    "eslint": "7.28.0",
     "nodemon": "1.18.9",
     "prettier": "1.15.3"
   },
