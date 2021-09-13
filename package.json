@@ -18,7 +18,7 @@
   "devDependencies": {
     "eslint": "5.10.0",
     "nodemon": "1.18.9",
-    "prettier": "1.15.3"
+    "prettier": "2.4.0"
   },
   "dependencies": {
     "dotenv": "6.2.0",
